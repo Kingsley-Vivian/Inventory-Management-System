@@ -1,0 +1,30 @@
+{
+  "name": "inventorymanagementsystem",
+  "version": "1.0.0",
+  "description": " Application for managing the inventory of a company",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "cloudinary": "^2.11.0",
+    "dotenv": "^18.0.7",
+    "env": "^0.0.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.4",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.10.1",
+    "multer": "^2.5.0",
+    "multer-storage-cloudinary-v2": "^1.0.3",
+    "nodemailer": "^10.5.0",
+    "nodemon": "^3.1.14"
+  }
+}
